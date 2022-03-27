@@ -34,6 +34,7 @@ def addMatch():
             match=lol_watcher.match.by_id(region="americas",match_id=id)
         except:
             print("not a valid match ID try again")
+            print("hi")
 
 # def checkStats():
 #     x=input("please enter the summoner name or type ALL to display all player stats")
